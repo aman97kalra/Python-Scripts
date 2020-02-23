@@ -17,7 +17,7 @@ def scraping():
     soup = BeautifulSoup( data , 'html5lib' )
 
     headings = soup.find_all( "div", {"class" : "detail"} )
-    start = 0
+    start = 1
     for  i in headings:
         print( "#Top News " + str(start))
         print( i.text )
