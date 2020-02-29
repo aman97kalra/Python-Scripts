@@ -1,4 +1,4 @@
-==>Functionality
+==>Functionality:
 Script to download each amazon interview experince on geeksforgeeks in the form of a pdf file.
 
 

@@ -1,5 +1,5 @@
-==>Functionality
-Script to autoamte sending messages on WhatsApp. Just enter the username, message and the number of times 
+==>Functionality:
+Script to automate sending messages on WhatsApp. Just enter the username, message and the number of times 
 you want to send the message. The only drawback is that it works on WhatsApp Web and you have to manually
 scan the QR Code for login.
 
