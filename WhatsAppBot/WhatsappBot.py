@@ -1,6 +1,3 @@
-### Script to autoamte sending messages on WhatsApp. Just enter the username, message and the number of times 
-### you want to send the message. The only drawback is that it works on WhatsApp Web and you have to manually
-### scan the OR Code for login.
 
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
