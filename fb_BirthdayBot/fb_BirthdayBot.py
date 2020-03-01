@@ -38,6 +38,8 @@ def birthday_post( browser ):
         inputBoxList[i].submit()
         print("Birthday Wish posted for " + str(nameList[i].text)) 
 
+    browser.close()
+
 if __name__=='__main__':
     browser = login()
     birthday_post( browser )
