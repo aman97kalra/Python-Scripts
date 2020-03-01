@@ -5,9 +5,8 @@ scan the QR Code for login.
 
 
 ## Libraries/Modules Required:
-1) time
+1) Time
 2) Selenium
 3) Chrome WebDriver
-4) time
 
 

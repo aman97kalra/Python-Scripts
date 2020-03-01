@@ -11,6 +11,11 @@ coverage
 # Logs
 *.log
 
+# Byte-compiled / optimized / DLL files / Python Temporary Files
+__pycache__/
+*.py[cod]
+*$py.class
+
 # npm & yarn
 node_modules/
 .npm
@@ -24,6 +29,8 @@ package-lock.json
 /build/index.html
 /build*
 /build/*
+
 # Editor/IDE
+.vscode/
 .idea
 packages/api/etc/

@@ -9,7 +9,7 @@ Script to download each amazon interview experince on geeksforgeeks in the form 
 4) Pdfkit
 5) wkhtmltopdf: use this brew formula to install, 
 ```console
-$ brew cask install wkhtmltopdf
+brew cask install wkhtmltopdf
 ```
 
 
