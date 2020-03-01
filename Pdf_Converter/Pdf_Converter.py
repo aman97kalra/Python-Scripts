@@ -43,6 +43,7 @@ def convert_to_pdf( dictionary ):
         print(key)
         pdf_name = value.strip()+'.pdf'
         print(pdf_name)
+        #print(pdf_name.strip('Amazon Interview Experience'))
 
         try:
             print(folder)
