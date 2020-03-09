@@ -1,8 +1,3 @@
-### Functionality: Script to scrap the top 10 news from IndiaToday
-### Requirement : I needed a script to fetch the top 10 news from a news site and the reason for choosing IndiaToday 
-                # was that its DOM structure was easy to manipulate
-
-
 import requests
 from bs4 import BeautifulSoup 
 from time import sleep

@@ -1,7 +1,3 @@
-### Script to rename all the files in  a folder with a name of your choice. 
-### Requirement : I needed a script to rename all the subtitle files of an anime series according to the episode number.
-
-
 # provides functions for interacting with OS
 import os
 
