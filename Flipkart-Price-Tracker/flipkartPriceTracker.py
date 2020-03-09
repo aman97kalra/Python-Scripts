@@ -12,9 +12,10 @@ def check_price():
     soup = BeautifulSoup( data, 'html5lib' )
 
     price = soup.find('div',{'class':'_1vC4OE _3qQ9m1'})
-    price = price.text.replace('₹','').replace(',','')
+    current_price = price.text.replace('₹','').replace(',','')
+    desired_price = 400
     print(price)
-    if( int(price) < 400):
+    if( int( current_price ) < desired_price ):
         send_mail()
     else:
         print('Price still high.')
