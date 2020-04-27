@@ -14,7 +14,7 @@ def check_price():
     price = soup.find('div',{'class':'_1vC4OE _3qQ9m1'})
     current_price = price.text.replace('₹','').replace(',','')
     desired_price = 400
-    print(price)
+    print(current_price)
     if( int( current_price ) < desired_price ):
         send_mail()
     else:
@@ -37,4 +37,3 @@ if __name__ == '__main__':
     while( True ):
         check_price()
         time.sleep( 60*60 )
-        

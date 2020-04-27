@@ -10,5 +10,5 @@ Script that compares the price of an item after a pre-defined time and sends mai
 
 
 ## Customizations Possible:
-Just enter the url of the product and sepcify the threshold price below which you can purchase the item and your script is ready.
-Happy Coding
+Just enter the url of the product and specify the threshold price below which you can purchase the item and your script is ready.
+Happy Coding !
