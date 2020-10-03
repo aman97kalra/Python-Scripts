@@ -5,7 +5,7 @@ const https = require('https');
  * @param {*} url url of the image to be downloaded
  * @param {*} path path where the image is be saved.
  */
-function saveImageToDisk( url, path ){
+function saveImageToDisk( { url, path } ){
     var fullUrl = url;
     var localPath = fs.createWriteStream(path);
     try{
@@ -18,5 +18,4 @@ function saveImageToDisk( url, path ){
     }
 };
 
-saveImageToDisk('https://random.dog/vh7i79y2qhhy.jpg',
-'./image.jpg');
+saveImageToDisk( { url: 'https://random.dog/vh7i79y2qhhy.jpg', path: './image.jpg' } );
